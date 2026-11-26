@@ -1,0 +1,34 @@
+{
+  "source": "Самостійно згенеровані синтетичні дані; мітки з формули, не реальна гра",
+  "seed": 42,
+  "records_total": 400,
+  "train_records": 300,
+  "test_records": 100,
+  "accuracy": 0.91,
+  "recall_high_threat": 0.7777777777777778,
+  "tn": 63,
+  "fp": 1,
+  "fn": 8,
+  "tp": 28,
+  "confidence_is_calibrated": false,
+  "bands": {
+    "auto_conf_ge_0_80": {
+      "n": 66,
+      "correct": 66,
+      "accuracy": 1.0
+    },
+    "review_0_65_to_0_80": {
+      "n": 16,
+      "correct": 15,
+      "accuracy": 0.9375
+    },
+    "reject_conf_lt_0_65": {
+      "n": 18,
+      "correct": 10,
+      "accuracy": 0.5555555555555556
+    }
+  },
+  "controlled_cases": 16,
+  "controlled_correct": 16,
+  "controlled_recommendation_rate": 1.0
+}

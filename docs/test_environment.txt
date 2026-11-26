@@ -1,0 +1,8 @@
+Середовище перевірки готових результатів (2026-11-27)
+Python: 3.13.5
+numpy: 2.3.5
+pandas: 2.2.3
+scikit-learn: 1.8.0
+reportlab: 4.4.9
+PyMuPDF: 1.26.7
+Команди: python -m scripts.evaluate; python -m unittest discover -s tests -v

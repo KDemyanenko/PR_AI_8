@@ -1,0 +1,6 @@
+# Лише для повторного створення PDF і PNG, не потрібні для запуску моделі.
+-r requirements.txt
+reportlab>=4,<5
+PyMuPDF>=1.25,<2
+svgwrite>=1.4,<2
+CairoSVG>=2.7,<3
